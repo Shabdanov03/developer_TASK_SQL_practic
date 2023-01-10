@@ -1,0 +1,245 @@
+create table users
+(
+    id           serial primary key,
+    login        VARCHAR(50),
+    salary       INT,
+    gender       VARCHAR(50),
+    age          INT,
+    working_year DATE,
+    description  VARCHAR(50)
+);
+
+insert into users (login, salary, gender, age, working_year, description)
+values ('gmail.com', 5147, 'Male', 31, '2019-07-14', 'facilitate B2B relationships');
+insert into users (login, salary, gender, age, working_year, description)
+values ('user', 3797, 'Female', 1, '2018-06-07', 'extend killer platforms');
+insert into users (login, salary, gender, age, working_year, description)
+values ('house', 7577, 'Male', 64, '2015-04-22', 'incubate compelling synergies');
+insert into users (login, salary, gender, age, working_year, description)
+values ('gmail.com', 8659, 'Female', 79, '2001-03-10', 'leverage sexy bandwidth');
+insert into users (login, salary, gender, age, working_year, description)
+values ('rsolon4@berkeley.edu', 4277, 'Male', 29, '2005-04-09', 'embrace next-generation action-items');
+insert into users (login, salary, gender, age, working_year, description)
+values ('hcoan5@npr.org', 5581, 'Male', 80, '2003-10-28', 'visualize turn-key deliverables');
+insert into users (login, salary, gender, age, working_year, description)
+values ('rvisick6@vinaora.com', 3836, 'Female', 88, '2009-02-10', 'streamline real-time e-markets');
+insert into users (login, salary, gender, age, working_year, description)
+values ('ckarsh7@sphinn.com', 2332, 'Male', 95, '2003-11-10', 'incentivize intuitive e-markets');
+insert into users (login, salary, gender, age, working_year, description)
+values ('chauxley8@cnbc.com', 1116, 'Female', 30, '2009-03-17', 'unleash world-class bandwidth');
+insert into users (login, salary, gender, age, working_year, description)
+values ('gtidball9@va.gov', 9152, 'Female', 43, '2007-03-17', 'disintermediate ubiquitous schemas');
+insert into users (login, salary, gender, age, working_year, description)
+values ('mlumleya@creativecommons.org', 3484, 'Polygender', 42, '2002-02-04', 'morph revolutionary portals');
+insert into users (login, salary, gender, age, working_year, description)
+values ('wcordieb@cyberchimps.com', 7583, 'Female', 69, '2013-03-28', 'reinvent 24/365 vortals');
+insert into users (login, salary, gender, age, working_year, description)
+values ('hhawkswellc@imageshack.us', 9543, 'Female', 9, '2010-03-17', 'grow world-class infomediaries');
+insert into users (login, salary, gender, age, working_year, description)
+values ('cblasgend@msu.edu', 6534, 'Female', 49, '2005-05-12', 'scale real-time relationships');
+insert into users (login, salary, gender, age, working_year, description)
+values ('eteuliere@cargocollective.com', 6804, 'Male', 69, '2003-02-14', 'empower robust channels');
+insert into users (login, salary, gender, age, working_year, description)
+values ('mredlerf@imgur.com', 4859, 'Female', 77, '2011-07-09', 'seize 24/365 interfaces');
+insert into users (login, salary, gender, age, working_year, description)
+values ('dgreiswoodg@foxnews.com', 9607, 'Male', 17, '2001-07-03', 'target best-of-breed platforms');
+insert into users (login, salary, gender, age, working_year, description)
+values ('atindleh@dagondesign.com', 9815, 'Female', 40, '2012-06-15', 'incubate world-class deliverables');
+insert into users (login, salary, gender, age, working_year, description)
+values ('igiacobazzii@chron.com', 4505, 'Female', 98, '2021-01-10', 'whiteboard real-time experiences');
+insert into users (login, salary, gender, age, working_year, description)
+values ('ghamblinj@delicious.com', 3579, 'Male', 84, '2007-10-26', 'evolve extensible niches');
+insert into users (login, salary, gender, age, working_year, description)
+values ('rwarryk@scribd.com', 6322, 'Male', 81, '2004-05-03', 'visualize strategic infrastructures');
+insert into users (login, salary, gender, age, working_year, description)
+values ('wdorowl@yahoo.co.jp', 4228, 'Male', 36, '2006-01-19', 'enable bricks-and-clicks e-services');
+insert into users (login, salary, gender, age, working_year, description)
+values ('olillicrapm@harvard.edu', 7891, 'Female', 33, '2017-10-26', 'maximize dot-com synergies');
+insert into users (login, salary, gender, age, working_year, description)
+values ('gmciloryn@si.edu', 9264, 'Female', 15, '2015-11-13', 'extend innovative applications');
+insert into users (login, salary, gender, age, working_year, description)
+values ('fcalendero@cbsnews.com', 4232, 'Female', 47, '2004-10-29', 'monetize front-end e-markets');
+insert into users (login, salary, gender, age, working_year, description)
+values ('ewatmorep@sbwire.com', 6965, 'Male', 71, '2000-07-07', 'reinvent dot-com partnerships');
+insert into users (login, salary, gender, age, working_year, description)
+values ('ccommuzzoq@bluehost.com', 8836, 'Male', 69, '2002-04-03', 'reinvent B2B platforms');
+insert into users (login, salary, gender, age, working_year, description)
+values ('tmallabarr@creativecommons.org', 1510, 'Male', 52, '2002-08-07', 'orchestrate transparent vortals');
+insert into users (login, salary, gender, age, working_year, description)
+values ('apendletons@fema.gov', 5795, 'Female', 98, '2015-01-28', 'recontextualize scalable deliverables');
+insert into users (login, salary, gender, age, working_year, description)
+values ('mlequeuxt@msn.com', 5625, 'Female', 3, '2017-05-19', 'enhance B2B e-tailers');
+insert into users (login, salary, gender, age, working_year, description)
+values ('rlardineru@ning.com', 5426, 'Female', 93, '2022-06-16', 'disintermediate web-enabled deliverables');
+insert into users (login, salary, gender, age, working_year, description)
+values ('gprophetv@google.com', 8204, 'Female', 4, '2010-07-17', 'synthesize intuitive networks');
+insert into users (login, salary, gender, age, working_year, description)
+values ('gdavidaiw@wiley.com', 2485, 'Male', 11, '2007-12-09', 'drive B2C interfaces');
+insert into users (login, salary, gender, age, working_year, description)
+values ('gologanx@themeforest.net', 8850, 'Male', 5, '2005-07-22', 'whiteboard extensible networks');
+insert into users (login, salary, gender, age, working_year, description)
+values ('fpyotty@homestead.com', 2781, 'Female', 29, '2003-12-11', 'architect real-time users');
+insert into users (login, salary, gender, age, working_year, description)
+values ('tdovinsonz@paypal.com', 3905, 'Female', 52, '2008-11-19', 'e-enable intuitive initiatives');
+insert into users (login, salary, gender, age, working_year, description)
+values ('sdegliantoni10@163.com', 8313, 'Female', 90, '2004-11-01', 'iterate global experiences');
+insert into users (login, salary, gender, age, working_year, description)
+values ('lblay11@arstechnica.com', 2040, 'Female', 24, '2015-07-11', 'orchestrate turn-key infomediaries');
+insert into users (login, salary, gender, age, working_year, description)
+values ('lmeekins12@eventbrite.com', 9378, 'Female', 84, '2012-09-14', 'whiteboard real-time e-business');
+insert into users (login, salary, gender, age, working_year, description)
+values ('rbratton13@people.com.cn', 8170, 'Male', 61, '2018-04-14', 'benchmark revolutionary niches');
+insert into users (login, salary, gender, age, working_year, description)
+values ('lantoszczyk14@smh.com.au', 8956, 'Male', 86, '2003-10-08', 'syndicate seamless vortals');
+insert into users (login, salary, gender, age, working_year, description)
+values ('fswinley15@biglobe.ne.jp', 3985, 'Male', 74, '2014-02-12', 'enhance out-of-the-box methodologies');
+insert into users (login, salary, gender, age, working_year, description)
+values ('rphilippon16@tumblr.com', 7566, 'Female', 22, '2014-03-30', 'harness integrated e-services');
+insert into users (login, salary, gender, age, working_year, description)
+values ('bong17@wufoo.com', 4931, 'Female', 32, '2008-07-20', 'enable one-to-one deliverables');
+insert into users (login, salary, gender, age, working_year, description)
+values ('sgianni18@gizmodo.com', 4461, 'Female', 37, '2007-08-05', 'unleash real-time e-markets');
+insert into users (login, salary, gender, age, working_year, description)
+values ('jhatherill19@nifty.com', 3339, 'Female', 44, '2004-02-26', 'synergize value-added portals');
+insert into users (login, salary, gender, age, working_year, description)
+values ('sjiri1a@theatlantic.com', 8574, 'Female', 41, '2000-05-09', 'generate out-of-the-box relationships');
+insert into users (login, salary, gender, age, working_year, description)
+values ('awolledge1b@wisc.edu', 3522, 'Female', 99, '2021-02-04', 'drive frictionless infomediaries');
+insert into users (login, salary, gender, age, working_year, description)
+values ('dwooton1c@cdbaby.com', 2965, 'Female', 15, '2005-11-20', 'redefine cross-media eyeballs');
+insert into users (login, salary, gender, age, working_year, description)
+values ('apregel1d@google.pl', 8524, 'Female', 47, '2007-09-19', 'innovate seamless channels');
+insert into users (login, salary, gender, age, working_year, description)
+values ('rbrumpton1e@gravatar.com', 2643, 'Male', 30, '2009-06-25', 'mesh efficient portals');
+insert into users (login, salary, gender, age, working_year, description)
+values ('bdewar1f@hp.com', 4675, 'Female', 85, '2014-06-12', 'reintermediate next-generation networks');
+insert into users (login, salary, gender, age, working_year, description)
+values ('tlademann1g@mapy.cz', 6868, 'Female', 22, '2013-05-22', 'enable rich paradigms');
+insert into users (login, salary, gender, age, working_year, description)
+values ('rwickens1h@opensource.org', 3259, 'Male', 12, '2006-07-08', 'facilitate one-to-one supply-chains');
+insert into users (login, salary, gender, age, working_year, description)
+values ('smulliner1i@friendfeed.com', 7447, 'Female', 41, '2022-11-21', 'harness leading-edge networks');
+insert into users (login, salary, gender, age, working_year, description)
+values ('ipleass1j@scientificamerican.com', 3522, 'Female', 44, '2016-06-10',
+        'cultivate mission-critical methodologies');
+insert into users (login, salary, gender, age, working_year, description)
+values ('kskeleton1k@howstuffworks.com', 8503, 'Female', 17, '2007-12-26', 'strategize end-to-end e-tailers');
+insert into users (login, salary, gender, age, working_year, description)
+values ('spfaffe1l@smh.com.au', 7015, 'Female', 98, '2021-12-03', 'incentivize cross-platform architectures');
+insert into users (login, salary, gender, age, working_year, description)
+values ('bcoggen1m@nature.com', 8148, 'Female', 98, '2010-03-22', 'deliver next-generation synergies');
+insert into users (login, salary, gender, age, working_year, description)
+values ('gettles1n@istockphoto.com', 7974, 'Male', 30, '2002-06-25', 'deliver cross-platform e-commerce');
+insert into users (login, salary, gender, age, working_year, description)
+values ('vvicioso1o@youtube.com', 8116, 'Male', 48, '2009-02-07', 'iterate world-class initiatives');
+insert into users (login, salary, gender, age, working_year, description)
+values ('mshercliff1p@amazon.de', 7976, 'Male', 21, '2000-03-27', 'envisioneer end-to-end deliverables');
+insert into users (login, salary, gender, age, working_year, description)
+values ('aharrild1q@gmpg.org', 5546, 'Female', 4, '2010-01-26', 'seize global partnerships');
+insert into users (login, salary, gender, age, working_year, description)
+values ('vcherryman1r@wix.com', 6050, 'Agender', 53, '2004-02-24', 'facilitate world-class solutions');
+insert into users (login, salary, gender, age, working_year, description)
+values ('rsinson1s@jigsy.com', 2655, 'Female', 91, '2013-06-29', 'recontextualize transparent niches');
+insert into users (login, salary, gender, age, working_year, description)
+values ('amccleverty1t@dyndns.org', 1978, 'Male', 14, '2000-08-20', 'enhance integrated models');
+insert into users (login, salary, gender, age, working_year, description)
+values ('hjehan1u@goo.gl', 7429, 'Genderqueer', 84, '2014-12-25', 'transition ubiquitous solutions');
+insert into users (login, salary, gender, age, working_year, description)
+values ('pkidwell1v@sitemeter.com', 6428, 'Female', 16, '2009-08-22', 'embrace next-generation paradigms');
+insert into users (login, salary, gender, age, working_year, description)
+values ('mkimmings1w@google.com', 9530, 'Male', 34, '2008-08-28', 'e-enable interactive technologies');
+insert into users (login, salary, gender, age, working_year, description)
+values ('lninnis1x@state.gov', 7582, 'Female', 71, '2007-02-01', 'facilitate bleeding-edge partnerships');
+insert into users (login, salary, gender, age, working_year, description)
+values ('ltraice1y@prlog.org', 2602, 'Female', 97, '2022-01-14', 'utilize distributed e-services');
+insert into users (login, salary, gender, age, working_year, description)
+values ('jdurdy1z@cnet.com', 3844, 'Female', 69, '2013-04-12', 'e-enable global methodologies');
+insert into users (login, salary, gender, age, working_year, description)
+values ('gfarrin20@cloudflare.com', 2807, 'Male', 68, '2007-10-21', 'optimize transparent web services');
+insert into users (login, salary, gender, age, working_year, description)
+values ('lhasselby21@baidu.com', 7832, 'Female', 79, '2012-05-29', 'evolve world-class content');
+insert into users (login, salary, gender, age, working_year, description)
+values ('flimbourne22@networkadvertising.org', 5394, 'Genderqueer', 82, '2009-07-17', 'utilize dynamic action-items');
+insert into users (login, salary, gender, age, working_year, description)
+values ('user', 6921, 'Male', 30, '2017-06-13', 'morph collaborative channels');
+insert into users (login, salary, gender, age, working_year, description)
+values ('wrowden24@flickr.com', 1703, 'Male', 70, '2003-10-25', 'redefine visionary partnerships');
+insert into users (login, salary, gender, age, working_year, description)
+values ('skayne25@free.fr', 6238, 'Female', 89, '2001-05-22', 'generate turn-key supply-chains');
+insert into users (login, salary, gender, age, working_year, description)
+values ('user', 2163, 'Female', 65, '2010-10-21', 'syndicate bricks-and-clicks paradigms');
+insert into users (login, salary, gender, age, working_year, description)
+values ('cglander27@xrea.com', 2106, 'Female', 32, '2018-06-30', 'innovate cross-media infrastructures');
+insert into users (login, salary, gender, age, working_year, description)
+values ('fcarwithan28@geocities.jp', 6346, 'Male', 99, '2022-01-29', 'iterate holistic methodologies');
+insert into users (login, salary, gender, age, working_year, description)
+values ('czellner29@nba.com', 1659, 'Male', 7, '2022-09-25', 'brand global relationships');
+insert into users (login, salary, gender, age, working_year, description)
+values ('admin', 8469, 'Female', 94, '2001-07-06', 'drive impactful applications');
+insert into users (login, salary, gender, age, working_year, description)
+values ('dcromwell2b@ocn.ne.jp', 2604, 'Female', 76, '2006-01-30', 'target distributed solutions');
+insert into users (login, salary, gender, age, working_year, description)
+values ('admin', 8102, 'Male', 16, '2018-03-13', 'evolve scalable content');
+insert into users (login, salary, gender, age, working_year, description)
+values ('dswains2d@wordpress.com', 9725, 'Male', 70, '2000-11-24', 'enable mission-critical channels');
+insert into users (login, salary, gender, age, working_year, description)
+values ('astoffers2e@uiuc.edu', 2237, 'Male', 60, '2010-01-18', 'leverage integrated deliverables');
+insert into users (login, salary, gender, age, working_year, description)
+values ('admin', 1288, 'Male', 13, '2004-09-06', 'deliver seamless architectures');
+insert into users (login, salary, gender, age, working_year, description)
+values ('user', 3062, 'Female', 49, '2013-04-06', 'incubate innovative experiences');
+insert into users (login, salary, gender, age, working_year, description)
+values ('house', 4944, 'Male', 41, '2000-03-28', 'target magnetic e-business');
+insert into users (login, salary, gender, age, working_year, description)
+values ('house', 9355, 'Female', 66, '2011-12-22', 'unleash open-source relationships');
+insert into users (login, salary, gender, age, working_year, description)
+values ('house', 5053, 'Male', 89, '2018-03-11', 'incubate front-end experiences');
+insert into users (login, salary, gender, age, working_year, description)
+values ('gmail.com', 5359, 'Female', 99, '2010-04-04', 'monetize e-business solutions');
+insert into users (login, salary, gender, age, working_year, description)
+values ('twalkden2l@archive.org', 5816, 'Male', 65, '2022-12-24', 'recontextualize plug-and-play mindshare');
+insert into users (login, salary, gender, age, working_year, description)
+values ('apapachristophorou2m@deliciousdays.com', 4330, 'Male', 28, '2008-04-22', 'revolutionize scalable markets');
+insert into users (login, salary, gender, age, working_year, description)
+values ('fadams2n@cam.ac.uk', 8756, 'Male', 94, '2021-12-04', 'deploy wireless content');
+insert into users (login, salary, gender, age, working_year, description)
+values ('gmail.com', 1546, 'Female', 44, '2014-02-18', 'brand viral e-commerce');
+insert into users (login, salary, gender, age, working_year, description)
+values ('gmail.com', 6916, 'Male', 83, '2020-03-11', 'utilize ubiquitous paradigms');
+insert into users (login, salary, gender, age, working_year, description)
+values ('google.com', 3415, 'Male', 56, '2001-01-18', 'evolve holistic communities');
+insert into users (login, salary, gender, age, working_year, description)
+values ('facebook.com', 6866, 'Male', 15, '2005-10-26', 'recontextualize next-generation ROI');
+
+
+--Создать таблицу "users",таблица users имеет поля id, login, salary, age, working_year, description (и другие при необходимости).
+--Выберите из таблицы users записи с id равным 1, 2, 3, 5, 14.
+select * from users where id in (1,2,3,5,15);
+
+--Выберите из таблицы users записи с login равным 'google.com', 'facebook.com', 'gmail.com'.
+select * from users where login in ('google.com', 'facebook.com', 'gmail.com');
+
+--Выберите из таблицы users записи с id равным 1, 2, 3, 7, 9, и логином, равным 'user', 'admin', 'house' и зарплатой больше 3500.
+select * from users where id in (1,2,3,7,9) and login in ('user','admin','house') and salary  > 3500;
+
+--Выберите из таблицы users записи c id от 3 до 10 и зарплатой от 3000 до 5000.
+select * from users where id between 3 and 10 and salary between 3000 and 5000;
+
+--Выберите из таблицы users все записи так, чтобы вместо id было userId, вместо login – userLogin, вместо salary - userSalary.
+select id as userId , login as userLogin , salary as userSalary from users;
+
+--При выборке из таблицы users создайте новое поле res, в котором будет число 3
+select concat('3',' ',age) as res from users;
+
+--При выборке из таблицы users создайте новое поле res, в котором будут лежать одновременно зарплата и возраст
+select concat('age : ',age,'  salary : ',salary) as res from users;
+
+--При выборке из таблицы users создайте новое поле res, в котором будут лежать одновременно зарплата и возраст , а после возраста будут идти три знака '!'.
+select concat('age : ',age,'  salary : ',salary,' !!!') as res from users;
+
+
+--При выборке из таблицы users создайте новое поле res, в котором будут лежать одновременно зарплата и возраст через дефис.
+select concat('',age,'-',salary) as res from users;
+
+--При выборке из таблицы users получите первые 5 символов логина и добавьте троеточие.
+select concat(substring(login,5)) from users;
