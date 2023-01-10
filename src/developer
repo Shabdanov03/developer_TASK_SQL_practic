@@ -1,0 +1,61 @@
+
+--Задача. Выберите из таблицы developers записи с id равным 3, 5, 6, 10 и логином, равным 'eee', 'zzz' или 'ggg'.
+select * from developers where id in (3,5,6,10) or email in ('eee','zzz');
+-- Задача. Выберите из таблицы developers записи c зарплатой от 500 до 1500.
+select * from developers where  salary between (500) and (1500);
+-- Задача. Выберите из таблицы developers все записи так, чтобы вместо id было developersId, вместо login – developersLogin, вместо salary - developersSalary.
+select id as  developersId , email as devolopersLogin , salary as developerSalary from developers;
+-- Найдите в таблице developers минимальный возраст.
+select  min(age) from developers;
+-- Задача. Найдите в таблице developers суммарный возраст.
+select sum(age) from developers;
+-- Задача. Вставьте в таблицу developers запись с полем date с текущим моментом времени в формате 'год-месяц-день часы:минуты:секунды'.
+select  now() from  developers;
+-- Задача. Вставьте в таблицу developers запись с полем date с текущей датой в формате 'год-месяц-день'.
+select *,  now()::date as date from developers;
+-- Задача. При выборке из таблицы developers запишите день, месяц и год в отдельные поля.
+select extract('day' from  working_year),extract('month' from working_year),extract('year' from working_year) from developers;
+
+-- На BETWEEN
+-- Выберите из таблицы developers записи c зарплатой от 1000 до 3000.
+select * from developers  where salary between 1000 and 3000;
+-- Выберите из таблицы developers записи c id от 3 до 10 и зарплатой от 300 до 500.
+select * from developers where  id between 3 and 10 and salary between  300 and 500;
+-- На AS
+-- Выберите из таблицы developers все записи так, чтобы вместо id был
+select * from developers as id ;
+
+-- На DISTINCT
+select distinct gender from  developers;
+-- Выберите из таблицы developers все записи так, чтобы туда попали только записи с разной зарплатой (без дублей).
+select distinct salary from  developers;
+-- Получите SQL запросом все возрасты без дублирования.
+select distinct age from developers;
+
+-- На MIN и MAX
+-- Найдите в таблице developers минимальную зарплату.
+select min(salary) from developers;
+-- Найдите в таблице developers максимальную зарплату.
+select  max(salary) from developers;
+
+-- На SUM
+--  Найдите в таблице workers суммарную зарплату.
+select sum(salary) from developers;
+--  Найдите в таблице developers суммарную зарплату для людей в возрасте от 21 до 25.
+select sum(salary) from developers where age between 21 and 25;
+--  Найдите в таблице developers суммарную зарплату для id, равного 1, 2, 3 и 5.
+select sum(salary) from developers where id in (1,2,3,5);
+
+--  На AVG
+--  Найдите в таблице developers среднюю зарплату.
+select avg(salary) from developers;
+--  Найдите в таблице workers средний возраст.
+select avg(age) from developers;
+--  При выборке из таблицы workers получите первые 5 символов поля description. Показать решение.
+--- error
+--  При выборке из таблицы workers получите последние 5 символов поля description. Показать решение.
+--error
+--  При выборке из таблицы workers получите из поля description символы со второго по десятый. Показать решение.
+-- error
+-- SORTED
+--error
